@@ -5,14 +5,7 @@ function App() {
   return (
     <div className="wrapper">
 			<div className="site-logo">mouthwash</div>
-			<div className="navbar">
-				<div className="site-info">photos / films</div>
-				<div className="site-menu">
-					<div className="menu-item">projects</div>
-					<div className="menu-item">about</div>
-					<div className="menu-item">contact</div>
-				</div>
-			</div>
+			
 			<div className="header">
 				<div className="header-left">
 					elevated<br /><span>reality</span>
