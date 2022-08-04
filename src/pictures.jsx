@@ -3,36 +3,36 @@
 const Pic=[
 
     {
-        key:'1',
+        
         id:"1",
         url:""
     },
     {
-        key:'2',
+        id:"2",
         url:""
     },
     {
-        key:'3',
+        id:'3',
         url:""
     },
     {
-        key:'4',
+        id:'4',
         url:""
     },
     {
-        key:'5',
+        id:'5',
         url:""
     },
     {
-        key:'6',
+        id:'6',
         url:""
     },
     {
-        key:'7',
+        id:'7',
         url:""
     },
     {
-        key:'8',
+        id:'8',
         url:""
     }
 ]

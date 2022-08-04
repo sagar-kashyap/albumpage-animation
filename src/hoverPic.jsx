@@ -3,12 +3,14 @@ import Pic from "./pictures";
 import './App.css'
 
 function addPics(link){
-        <div className="item">
-			<a className="container-item" data-img={link.url}>
-				<h3>1</h3>
+    return(
+        <div key={link.id} className="item">
+			<a href="#"  className="container-item" data-img={link.url}>
+				<h3>{link.id}</h3>
 			</a>
 		</div>
-        console.log(link.key);
+        )
+        
 }
 
 function HoverPics(){
