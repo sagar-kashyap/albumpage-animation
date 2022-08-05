@@ -1,5 +1,5 @@
 import React from 'react';
-import gsap from 'gsap';
+
 import './App.css';
 import HoverPics from './hoverPic';
 
