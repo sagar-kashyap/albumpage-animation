@@ -8,7 +8,9 @@ function addPics(link){
 			<a href="#"  className="container-item" data-img={link.url}>
 				<h3>{link.id}</h3>
 			</a>
+            {console.log(link.url)}
 		</div>
+        
         )
         
 }
@@ -24,5 +26,7 @@ function HoverPics(){
         
     )
 }
+
+
 
 export default HoverPics;
