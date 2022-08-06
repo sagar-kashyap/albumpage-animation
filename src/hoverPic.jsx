@@ -17,6 +17,8 @@ function addPics(link){
         
 }
 
+
+
 function HoverPics(){
     return(
         <div className="container-items">
@@ -29,7 +31,13 @@ function HoverPics(){
     )
 }
 
-const allcontainer = gsap.utils.toArray(".container-item");
+export default HoverPics;
+
+
+
+document.addEventListener('readystatechange', event => { 
+
+        const allcontainer = gsap.utils.toArray(".container-item");
 		const venueImageWrap = document.querySelector(".container-img-wrap");
 		const venueImage = document.querySelector(".container-img");
 
@@ -78,15 +86,11 @@ const allcontainer = gsap.utils.toArray(".container-item");
 		window.addEventListener("load", function () {
 			init();
 		});
+    });
 
 		const tl = gsap.timeline();
 
-		tl.from(".navbar > div", {duration:1.6,
-			opacity: 0,
-			y: 60,
-			ease: "expo.inOut",
-			delay: 0.6,
-		});
+		
         
 		tl.from(
 			".site-logo",
@@ -99,22 +103,12 @@ const allcontainer = gsap.utils.toArray(".container-item");
 			"-=1.6"
 		);
 
-		tl.from(
-			".site-menu > div",
-			
-			{
-				opacity: 0,
-				y: 60,
-				ease: "power2.Out",
-                stagger:0.2
-			},
-			
-		);
+		
 
 		tl.from(
 			".header > div",
 			
-			{
+			{   duration:1,
 				opacity: 0,
 				y: 60,
 				ease: "power2.Out",
@@ -123,5 +117,5 @@ const allcontainer = gsap.utils.toArray(".container-item");
 			},
 			
 		);
-
-export default HoverPics;
+        
+        
