@@ -1,5 +1,6 @@
-Wait for couple of seconds when you hover over the numbers for loading the images.
+# Wait for couple of seconds when you hover over the numbers for loading the images.
 
+----------------------------------------------------------------------------------------------------------------------
 
 # Getting Started with Create React App
 
