@@ -12,7 +12,7 @@ function App() {
 			<div className="header">
 				<div className="header-left">
 					elevated<br /><span>reality</span>
-					<div className="link"><a href="#">view showreel</a></div>
+					<div className="link"><a href="#top">view showreel</a></div>
 				</div>
 				<div className="header-right">/all projects</div>
 			</div>

@@ -7,7 +7,7 @@ import gsap from 'gsap';
 function addPics(link){
     return(
         <div key={link.id} className="item">
-			<a href="#"  className="container-item" data-img={link.url}>
+			<a href="#top"  className="container-item" data-img={link.url}>
 				<h3>{link.id}</h3>
 			</a>
             {console.log(link.url)}
