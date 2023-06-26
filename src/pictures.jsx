@@ -5,35 +5,35 @@ const Pic=[
     {
         
         id:"1",
-        url: "https://github.com/sagar-kashyap/landing-page-animation/blob/main/public/pics/image-one.jpg?raw=true"
+        url: "/pics/one.png"
     },
     {
         id:"2",
-        url:"https://github.com/sagar-kashyap/landing-page-animation/blob/main/public/pics/image-two.jpg?raw=true"
+        url:"/pics/two.png"
     },
     {
         id:'3',
-        url:"https://github.com/sagar-kashyap/landing-page-animation/blob/main/public/pics/image-three.jpg?raw=true"
+        url:"/pics/three.jpg"
     },
     {
         id:'4',
-        url:"https://github.com/sagar-kashyap/landing-page-animation/blob/main/public/pics/image-four.jpg?raw=true"
+        url:"/pics/four.jpg"
     },
     {
         id:'5',
-        url:"https://github.com/sagar-kashyap/landing-page-animation/blob/main/public/pics/image-five.jpg?raw=true"
+        url:"/pics/five.jpg"
     },
     {
         id:'6',
-        url:"https://github.com/sagar-kashyap/landing-page-animation/blob/main/public/pics/image-seven.jpg?raw=true"
+        url:"/pics/six.jpg"
     },
     {
         id:'7',
-        url:"https://github.com/sagar-kashyap/landing-page-animation/blob/main/public/pics/image-six.jpg?raw=true"
+        url:"/pics/seven.jpg"
     },
     {
         id:'8',
-        url:"https://github.com/sagar-kashyap/landing-page-animation/blob/main/public/pics/image-eight.jpg?raw=true"
+        url:"/pics/eight.jpg"
     }
 ]
 

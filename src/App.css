@@ -109,7 +109,7 @@ img{
 	font-family: "Mak";
 	font-size: 40px;
 	z-index: 2;
-	
+	opacity: 1 !important;
 }
 
 .header-left span {

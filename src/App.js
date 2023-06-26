@@ -48,10 +48,10 @@ function App() {
 			
 			<div ref={header} className="header">
 				<div className="header-left">
-					elevated<br /><span>reality</span>
+					Living in the<br /><span>moment</span>
 					
 				</div>
-				<div className="header-right">/all projects</div>
+				<div className="header-right"></div>
 			</div>
 			<div className="container">
 				<HoverPics />
